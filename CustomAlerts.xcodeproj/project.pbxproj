@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F414A91C233111FA00DAB129 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414A91B233111FA00DAB129 /* AlertViewController.swift */; };
+		F414A91E2331177900DAB129 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414A91D2331177900DAB129 /* AlertService.swift */; };
+		F414A9202331203D00DAB129 /* Round+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414A91F2331203D00DAB129 /* Round+UIButton.swift */; };
 		F4E1C6CC2330FF5800585DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1C6CB2330FF5800585DE4 /* AppDelegate.swift */; };
 		F4E1C6CE2330FF5800585DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1C6CD2330FF5800585DE4 /* ViewController.swift */; };
 		F4E1C6D12330FF5800585DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E1C6CF2330FF5800585DE4 /* Main.storyboard */; };
 		F4E1C6D32330FF6A00585DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E1C6D22330FF6A00585DE4 /* Assets.xcassets */; };
 		F4E1C6D62330FF6A00585DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E1C6D42330FF6A00585DE4 /* LaunchScreen.storyboard */; };
+		F4E1C6DE2331023200585DE4 /* AlertStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E1C6DD2331023200585DE4 /* AlertStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F414A91B233111FA00DAB129 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		F414A91D2331177900DAB129 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		F414A91F2331203D00DAB129 /* Round+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Round+UIButton.swift"; sourceTree = "<group>"; };
 		F4E1C6C82330FF5800585DE4 /* CustomAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E1C6CB2330FF5800585DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E1C6CD2330FF5800585DE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		F4E1C6D22330FF6A00585DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E1C6D52330FF6A00585DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4E1C6D72330FF6A00585DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E1C6DD2331023200585DE4 /* AlertStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				F4E1C6D22330FF6A00585DE4 /* Assets.xcassets */,
 				F4E1C6D42330FF6A00585DE4 /* LaunchScreen.storyboard */,
 				F4E1C6D72330FF6A00585DE4 /* Info.plist */,
+				F4E1C6DD2331023200585DE4 /* AlertStoryboard.storyboard */,
+				F414A91B233111FA00DAB129 /* AlertViewController.swift */,
+				F414A91D2331177900DAB129 /* AlertService.swift */,
+				F414A91F2331203D00DAB129 /* Round+UIButton.swift */,
 			);
 			path = CustomAlerts;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			files = (
 				F4E1C6D62330FF6A00585DE4 /* LaunchScreen.storyboard in Resources */,
 				F4E1C6D32330FF6A00585DE4 /* Assets.xcassets in Resources */,
+				F4E1C6DE2331023200585DE4 /* AlertStoryboard.storyboard in Resources */,
 				F4E1C6D12330FF5800585DE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E1C6CE2330FF5800585DE4 /* ViewController.swift in Sources */,
+				F414A91C233111FA00DAB129 /* AlertViewController.swift in Sources */,
+				F414A91E2331177900DAB129 /* AlertService.swift in Sources */,
 				F4E1C6CC2330FF5800585DE4 /* AppDelegate.swift in Sources */,
+				F414A9202331203D00DAB129 /* Round+UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

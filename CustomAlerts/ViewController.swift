@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var emoji: UILabel!
+    
+    let alertService = AlertService()
+    
+    @IBAction func alertBtn(_ sender: Any) {
+        let alertVC = alertService.alert(title: "Happy", body: "This is a lot of text in the body and it demonstrates how the label will continue to grow and so will the container", actionTitle: "Confirm") {
+            
+            self.view.backgroundColor = .darkGray
+            self.emoji.text = "😀"
+        }
+        present(alertVC, animated: true, completion: nil)
     }
-
+    
 
 }
 
